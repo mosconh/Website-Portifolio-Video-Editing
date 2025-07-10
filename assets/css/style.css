@@ -25,7 +25,7 @@ a:hover {
 
 h1 {
     font-family: Cormorant, serif, Arial, Helvetica, sans-serif;
-    font-size: 3.5em;
+    font-size: 3.5em;  /*Usar rem*/
     padding: 10px;
     text-align: center;
     font-weight: 200;
