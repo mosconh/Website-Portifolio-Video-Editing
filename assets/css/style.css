@@ -44,7 +44,7 @@ p {
     color: #292929;
 }
 
-img {
+.henrique-image {
     min-width: 10px;
     max-width: 300px;
     border-radius: 20px;
@@ -75,4 +75,25 @@ img {
     width: 100px;
     background-color: #999; /* You can use #ccc or any light gray */
     margin-right: 16px;
+}
+
+.project-grid {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-grid a img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.stretched-image {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
 }
